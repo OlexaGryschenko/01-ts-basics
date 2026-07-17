@@ -32,7 +32,6 @@ getFirstElement<boolean>([true, false, true]); // true
 console.log(getFirstElement<number>([1, 2, 3]));          // 1
 console.log(getFirstElement<string>(["a", "b", "c"]));    // "a"
 console.log(getFirstElement<boolean>([true, false, true])); // true
-console.log(getFirstElement<boolean>(["first", true, false ])); // true
 console.log(getFirstElement<boolean | string>([true, false, "first"])); // true
 
 
